@@ -68,6 +68,20 @@ set laststatus=2
 set t_Co=256
 let g:Powline_symbols='fancy'
 
+"LaTeX
+Bundle 'LaTeX-Suite-aka-Vim-LaTeX'
+"Markdown
+Bundle 'Markdown'
+"按一定规则生成序列
+Bundle 'Vislncr'
+"Matrix-Yang
+Bundle 'matrix.vim--Yang'
+"NerdTree
+Bundle 'scrooloose/nerdtree'
+"a.vim
+Bundle 'a.vim'
+
+
 "Vundle配置必须开启插件
 filetype plugin indent on
 "Vundle END!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

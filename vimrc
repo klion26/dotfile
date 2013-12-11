@@ -72,16 +72,18 @@ let g:Powline_symbols='fancy'
 Bundle 'LaTeX-Suite-aka-Vim-LaTeX'
 "Markdown
 Bundle 'Markdown'
-"按一定规则生成序列
-Bundle 'Vislncr'
 "Matrix-Yang
 Bundle 'matrix.vim--Yang'
 "NerdTree
 Bundle 'scrooloose/nerdtree'
 "a.vim
 Bundle 'a.vim'
-
-
+"YouCompleteMe
+"Bundle 'Valloric/YouCompleteMe'
+"supertab
+Bundle 'ervandew/supertab'
+"syntastic
+Bundle 'scrooloose/syntastic'
 "Vundle配置必须开启插件
 filetype plugin indent on
 "Vundle END!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

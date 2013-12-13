@@ -84,6 +84,17 @@ Bundle 'a.vim'
 Bundle 'ervandew/supertab'
 "syntastic
 Bundle 'scrooloose/syntastic'
+"solarized
+Bundle 'altercation/vim-colors-solarized'
+"tomorrow
+Bundle 'chriskempson/vim-tomorrow-theme'
 "Vundle配置必须开启插件
 filetype plugin indent on
 "Vundle END!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+"
+"solarized theme
+"syntax enable
+"set t_Co=256
+"let g:colarized_termcolors=256
+"set background=dark
+colorscheme Tomorrow-Night-Bright

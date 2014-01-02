@@ -95,6 +95,6 @@ filetype plugin indent on
 "solarized theme
 "syntax enable
 "set t_Co=256
-"let g:colarized_termcolors=256
-"set background=dark
-colorscheme Tomorrow-Night-Bright
+let g:solarized_termcolors=256
+set background=dark
+colorscheme solarized
